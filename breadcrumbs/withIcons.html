@@ -45,6 +45,29 @@
       .breadcrumbs li + li::before {
         content: '/\00a0';
         color: #6b7280;
+        height: 24px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .breadcrumb-link:link,
+      .breadcrumb-link:visited {
+        color: #6b7280;
+        text-decoration: none;
+        padding: 2px 5px;
+
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .breadcrumb-link:hover,
+      .breadcrumb-link:active {
+        color: #0f172a;
+        background-color: #9ca3af;
+        border-radius: 3px;
       }
 
       .breadcrumb-icon {
@@ -53,22 +76,9 @@
         fill: #6b7280;
       }
 
-      .breadcrumb-link:link,
-      .breadcrumb-link:visited {
-        display: flex;
-        align-items: center;
-        gap: 3px;
-
-        color: #6b7280;
-        text-decoration: none;
-        padding: 2px 5px;
-      }
-
-      .breadcrumb-link:hover,
-      .breadcrumb-link:active {
-        color: #0f172a;
-        background-color: #9ca3af;
-        border-radius: 3px;
+      .breadcrumb-link:hover .breadcrumb-icon,
+      .breadcrumb-link:active .breadcrumb-icon {
+        fill: #0f172a;
       }
     </style>
   </head>
