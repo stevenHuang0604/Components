@@ -9,8 +9,10 @@ components
 ├─ breadcrumbs
 │  ├─ basic.html
 │  ├─ index.html
+│  ├─ paddingPattern.html
 │  └─ withIcons.html
 ├─ paginations
+│  └─ index.html
 └─ README.md
 
 ```
