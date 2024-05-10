@@ -27,7 +27,7 @@
         justify-content: center;
       }
 
-      .breadcrumb {
+      .breadcrumbs {
         padding: 12px 24px;
 
         display: flex;
@@ -35,12 +35,20 @@
         gap: 5px;
       }
 
-      .breadcrumb-link:link,
-      .breadcrumb-slash,
-      .breadcrumb-current {
-        display: inline-block;
+      .breadcrumb {
+        list-style: none;
 
         display: flex;
+        align-items: center;
+      }
+
+      .breadcrumbs li + li::before {
+        content: '/\00a0';
+        color: #6b7280;
+        height: 24px;
+
+        display: flex;
+        justify-content: center;
         align-items: center;
       }
 
@@ -49,6 +57,10 @@
         color: #6b7280;
         text-decoration: none;
         padding: 2px 5px;
+
+        display: flex;
+        align-items: center;
+        gap: 3px;
       }
 
       .breadcrumb-link:hover,
@@ -61,15 +73,18 @@
   </head>
   <body>
     <div class="container">
-      <div class="breadcrumb">
-        <a href="#" class="breadcrumb-link">Home</a>
-        <span class="breadcrumb-slash">/</span>
-        <a href="#" class="breadcrumb-link">Application Center</a>
-        <span class="breadcrumb-slash">/</span>
-        <a href="#" class="breadcrumb-link">Application List</a>
-        <span class="breadcrumb-slash">/</span>
-        <span class="breadcrumb-current">An Application</span>
-      </div>
+      <ul class="breadcrumbs">
+        <li class="breadcrumb">
+          <a href="#" class="breadcrumb-link">Home</a>
+        </li>
+        <li class="breadcrumb">
+          <a href="#" class="breadcrumb-link">Application Center</a>
+        </li>
+        <li class="breadcrumb">
+          <a href="#" class="breadcrumb-link">Application List</a>
+        </li>
+        <li class="breadcrumb">An Application</li>
+      </ul>
     </div>
   </body>
 </html>
