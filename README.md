@@ -1,3 +1,3 @@
 # Components
 
-Build components in only html & css only, just for practicing.
+Practice building components in only html & css.
