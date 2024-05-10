@@ -41,11 +41,11 @@ body {
 }
 
 .pagination__btn:hover {
-  border: 1px solid #d1d5db;
+  background-color: #d1d5db;
 }
 
 .pagination__btn:hover.pagination__btn--disabled {
-  border: none;
+  background-color: transparent;
 }
 
 .pagination__btn--icon {
@@ -74,14 +74,10 @@ body {
 
 .pagination__link:hover,
 .pagination__link:active {
-  border: 1px solid #d1d5db;
+  background-color: #d1d5db;
 }
 
 .pagination__link.pagination__link--active {
-  color: #38bdf8;
-  border: 1px solid #38bdf8;
-}
-
-.pagination__link.pagination__link--active:hover {
-  background-color: transparent;
+  color: #0ea5e9;
+  background-color: #bae6fd;
 }
