@@ -1,0 +1,74 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  color: #0f172a;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumbs {
+  padding: 12px 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb {
+  list-style: none;
+  height: 100%;
+  background-color: #e5e7eb;
+  padding: 6px 12px;
+
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb:not(:last-child) {
+  margin-right: -5px;
+}
+
+.breadcrumb:first-child {
+  border-radius: 3px 0 0 3px;
+  clip-path: polygon(calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 0 100%, 0 0);
+}
+
+.breadcrumb:last-child {
+  border-radius: 0 3px 3px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10px 50%);
+}
+
+.breadcrumb:not(:first-child):not(:last-child) {
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 0 100%, 10px 50%);
+}
+
+.breadcrumb-link:link,
+.breadcrumb-link:visited {
+  color: #0f172a;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.breadcrumb:has(.breadcrumb-link:hover),
+.breadcrumb:has(.breadcrumb-link:active) {
+  background-color: #9ca3af;
+}
+
+.breadcrumb-icon {
+  height: 24px;
+  width: 24px;
+  fill: #0f172a;
+}
