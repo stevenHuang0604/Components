@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  width: 100%;
+  border-bottom: 1px solid #64748b;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.tab {
+  display: inline-block;
+  color: #64748b;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 16px 4px;
+  border-bottom: 3px solid transparent;
+}
+
+.tab--active {
+  color: #6366f1;
+  border-bottom: 3px solid #6366f1;
+}
+
+.tab:not(.tab--active):hover {
+  color: #475569;
+  border-bottom: 3px solid #475569;
+}

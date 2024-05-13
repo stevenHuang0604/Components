@@ -32,16 +32,19 @@ components
 │  ├─ index.html
 │  └─ style.css
 ├─ README.md
-└─ statistics
-   ├─ basic.css
-   ├─ basic.html
-   ├─ brandIcon.css
-   ├─ brandIcon.html
-   ├─ card.css
-   ├─ card.html
+├─ statistics
+│  ├─ basic.css
+│  ├─ basic.html
+│  ├─ brandIcon.css
+│  ├─ brandIcon.html
+│  ├─ card.css
+│  ├─ card.html
+│  ├─ index.html
+│  ├─ style.css
+│  ├─ withTrending.css
+│  └─ withTrending.html
+└─ tabs
    ├─ index.html
-   ├─ style.css
-   ├─ withTrending.css
-   └─ withTrending.html
+   └─ style.css
 
 ```
