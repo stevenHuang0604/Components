@@ -31,6 +31,17 @@ components
 │  ├─ filled.html
 │  ├─ index.html
 │  └─ style.css
-└─ README.md
+├─ README.md
+└─ statistics
+   ├─ basic.css
+   ├─ basic.html
+   ├─ brandIcon.css
+   ├─ brandIcon.html
+   ├─ card.css
+   ├─ card.html
+   ├─ index.html
+   ├─ style.css
+   ├─ withTrending.css
+   └─ withTrending.html
 
 ```
