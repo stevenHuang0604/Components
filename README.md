@@ -59,5 +59,5 @@ components
 │  └─ style.css
 ├─ index.html
 ├─ style.css
-├─ README.md
+└─ README.md
 ```
