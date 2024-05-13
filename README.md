@@ -7,8 +7,14 @@ Practice building components in only html & css.
 ```text
 components
 ├─ alerts
+│  ├─ accentBorder.css
+│  ├─ accentBorder.html
+│  ├─ basic.css
+│  ├─ basic.html
 │  ├─ index.html
-│  └─ style.css
+│  ├─ style.css
+│  ├─ withActions.css
+│  └─ withActions.html
 ├─ breadcrumbs
 │  ├─ basic.css
 │  ├─ basic.html
