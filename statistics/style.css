@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato';
+}
+
+.container {
+  max-width: 120rem;
+  text-align: center;
+  margin: 12rem auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 50%;
+  font-size: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+a:link,
+a:visited {
+  color: #6b7280;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+a:hover,
+a:active {
+  color: #0f172a;
+  background-color: #9ca3af;
+}
