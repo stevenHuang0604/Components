@@ -47,6 +47,10 @@ components
 │  ├─ basic.css
 │  ├─ basic.html
 │  ├─ index.html
+│  ├─ panel.css
+│  ├─ panel.html
+│  ├─ simple.css
+│  ├─ simple.html
 │  └─ style.css
 ├─ tabs
 │  ├─ basic.css
