@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./all.css" />
+    <title>All Kinds of Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <div class="form__item">
+          <div class="form__label">
+            <label for="checkbox">Checkbox</label>
+          </div>
+
+          <div class="form__checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">Checkbox</label>
+          </div>
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="radio">Radio</label>
+          </div>
+
+          <input type="radio" name="radio" id="apple" value="apple" />
+          <label for="apple">Apple</label>
+          <input type="radio" name="radio" id="pear" value="pear" />
+          <label for="pear">Pear</label>
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="input">Input</label>
+          </div>
+
+          <input type="text" name="input" id="input" />
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="select">Select</label>
+          </div>
+
+          <select name="select" id="select">
+            <option value="demo">Demo</option>
+          </select>
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="date">DatePicker</label>
+          </div>
+
+          <input type="date" name="date" id="date" />
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="number">InputNumber</label>
+          </div>
+
+          <input type="number" name="number" id="number" />
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="textarea">TextArea</label>
+          </div>
+
+          <textarea name="textarea" id="textarea" rows="5" cols="33"></textarea>
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="button">Button</label>
+          </div>
+
+          <input type="button" name="button" id="button" value="Button" />
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="slider">Slider</label>
+          </div>
+
+          <input type="range" name="slider" id="slider" min="0" max="100" />
+        </div>
+
+        <div class="form__item">
+          <div class="form__label">
+            <label for="color">ColorPicker</label>
+          </div>
+
+          <input type="color" name="color" id="color" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

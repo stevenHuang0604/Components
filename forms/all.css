@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  row-gap: 20px;
+}
+
+.form__item {
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form__label {
+  width: 150px;
+  text-align: end;
+}
+
+.form__label::after {
+  content: ' :';
+}
+
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
