@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./basic.css" />
+    <title>Form Basic</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <div class="form__item">
+          <label for="username" class="form__label">Username</label>
+          <input type="text" name="username" class="form__input" required />
+        </div>
+
+        <div class="form__item">
+          <label for="password" class="form__label">Password</label>
+          <input type="text" name="password" class="form__input" required />
+        </div>
+
+        <div class="form__item">
+          <label for="gender" class="form__label">Gender</label>
+          <select name="gender" id="gender-select" class="form__input">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+
+        <div class="form__item">
+          <button type="submit" class="form__btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
