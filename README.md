@@ -6,7 +6,6 @@ Practice building components in only html & css.
 
 ```text
 components
-
 ├─ alerts
 │  ├─ accentBorder.css
 │  ├─ accentBorder.html
@@ -25,6 +24,13 @@ components
 │  ├─ style.css
 │  ├─ withIcons.css
 │  └─ withIcons.html
+├─ forms
+│  ├─ all.css
+│  ├─ all.html
+│  ├─ basic.css
+│  ├─ basic.html
+│  ├─ index.html
+│  └─ style.css
 ├─ paginations
 │  ├─ basic.css
 │  ├─ basic.html
@@ -52,6 +58,11 @@ components
 │  ├─ simple.css
 │  ├─ simple.html
 │  └─ style.css
+├─ tables
+│  ├─ basic.css
+│  ├─ basic.html
+│  ├─ index.html
+│  └─ style.css
 ├─ tabs
 │  ├─ basic.css
 │  ├─ basic.html
@@ -64,4 +75,5 @@ components
 ├─ index.html
 ├─ style.css
 └─ README.md
+
 ```
