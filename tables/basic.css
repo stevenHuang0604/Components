@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f8fafc;
+}
+
+tr {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+
+td {
+  font-size: 14px;
+}
+
+th:not(:last-child):before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  background-color: #e2e8f0;
+  top: 50%;
+  left: 100%;
+  transform: translate(0, -50%);
+}
+
+th:first-child {
+  border-top-left-radius: 5px;
+}
+
+th:last-child {
+  border-top-right-radius: 5px;
+}
+
+tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.table__item-name,
+.table__item-action {
+  color: #1677ff;
+}
+
+.table__item-tags--personality,
+.table__item-tags--job,
+.table__item-tags--bad {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  font-size: 12px;
+  padding: 0 7px;
+  border-radius: 4px;
+}
+
+.table__item-tags--personality {
+  color: #389e0d;
+  background-color: #f6ffed;
+  border: 1px solid #b7eb8f;
+}
+
+.table__item-tags--job {
+  color: #1d39c4;
+  background-color: #f0f5ff;
+  border: 1px solid #adc6ff;
+}
+
+.table__item-tags--bad {
+  color: #d4380d;
+  background-color: #fff2e8;
+  border: 1px solid #ffbb96;
+}
